@@ -7,6 +7,10 @@ import java.util.Scanner;
 
 public class TryWithResources {
 
+    // https://www.baeldung.com/java-try-with-resources
+
+    // Avoid pointless closing resources code
+
     void previous() {
         Scanner scanner = null;
         try {
